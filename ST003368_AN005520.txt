@@ -1,0 +1,396 @@
+#METABOLOMICS WORKBENCH Qianlab_20240714_001423 DATATRACK_ID:5008 STUDY_ID:ST003368 ANALYSIS_ID:AN005520 PROJECT_ID:PR002091
+VERSION             	1
+CREATED_ON             	August 2, 2024, 12:37 pm
+#PROJECT
+PR:PROJECT_TITLE                 	Non-Invasive Diagnosis of Moyamoya Disease Using Serum Metabolic Fingerprints
+PR:PROJECT_TITLE                 	and Machine Learning
+PR:PROJECT_SUMMARY               	Moyamoya disease (MMD) is a progressive cerebrovascular disorder that raises the
+PR:PROJECT_SUMMARY               	risk of intracranial ischemia and hemorrhage. For a non-invasive diagnostic
+PR:PROJECT_SUMMARY               	approach to MMD, we used nanoparticle-enhanced laser desorption/ionization mass
+PR:PROJECT_SUMMARY               	spectrometry (LDI-MS) to analyze serum metabolic fingerprints (SMFs) in a
+PR:PROJECT_SUMMARY               	validation cohort (MMD: 115/HC: 115) and a discovery cohort (MMD: 29/HC: 29).
+PR:INSTITUTE                     	Shanghai Jiao Tong University affiliated Renji Hospital
+PR:LAST_NAME                     	Xu
+PR:FIRST_NAME                    	Yudian
+PR:ADDRESS                       	Shanghai, 200127, P. R. China, Shanghai, Shanghai, 200127, China
+PR:EMAIL                         	xuyd9r@sjtu.edu.cn
+PR:PHONE                         	19370718762
+#STUDY
+ST:STUDY_TITLE                   	Non-Invasive Diagnosis of Moyamoya Disease Using Serum Metabolic Fingerprints
+ST:STUDY_TITLE                   	and Machine Learning
+ST:STUDY_SUMMARY                 	Moyamoya disease (MMD) is a progressive cerebrovascular condition that elevates
+ST:STUDY_SUMMARY                 	the risk of intracranial ischemia and hemorrhage. Timely diagnosis and
+ST:STUDY_SUMMARY                 	intervention can considerably lower the chances of new stroke occurrences in MMD
+ST:STUDY_SUMMARY                 	patients. However, existing diagnostic techniques are both invasive and costly,
+ST:STUDY_SUMMARY                 	with few reports on non-invasive diagnosis using MMD biomarkers. To tackle this
+ST:STUDY_SUMMARY                 	challenge, we conducted non-targeted metabolomics analysis using LDI-MS on serum
+ST:STUDY_SUMMARY                 	from 288 samples (validation cohort: MMD/HC: 115/115; discovery cohort: MMD/HC:
+ST:STUDY_SUMMARY                 	29/29) to identify patients with MMD. We then created a diagnostic model
+ST:STUDY_SUMMARY                 	leveraging deep learning algorithms, which demonstrated remarkable accuracy in
+ST:STUDY_SUMMARY                 	distinguishing the MMD group from the HC group (AUC = 0.977, 95% CI of 0.945 to
+ST:STUDY_SUMMARY                 	1.000). This method represents a promising new approach for MMD diagnosis.
+ST:STUDY_SUMMARY                 	Additionally, our findings may have wider implications for the diagnosis of
+ST:STUDY_SUMMARY                 	other neurological disorders.
+ST:INSTITUTE                     	Shanghai Jiao Tong University affiliated Renji Hospital
+ST:LAST_NAME                     	Xu
+ST:FIRST_NAME                    	Yudian
+ST:ADDRESS                       	Shanghai, 200127, P. R. China, Shanghai, Shanghai, 200127, China
+ST:EMAIL                         	xuyd9r@sjtu.edu.cn
+ST:PHONE                         	19370718762
+#SUBJECT
+SU:SUBJECT_TYPE                  	Human
+SU:SUBJECT_SPECIES               	Homo sapiens
+SU:TAXONOMY_ID                   	9606
+SU:GENDER                        	Male and female
+#FACTORS
+#SUBJECT_SAMPLE_FACTORS:         	SUBJECT(optional)[tab]SAMPLE[tab]FACTORS(NAME:VALUE pairs separated by |)[tab]Raw file names and additional sample data
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_1	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_2	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_3	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_4	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_5	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_6	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_7	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_8	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_9	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_10	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_11	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_12	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_13	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_14	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_15	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_16	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_17	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_18	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_19	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_20	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_21	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_22	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_23	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_24	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_25	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_26	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_27	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_28	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_29	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_30	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_31	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_32	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_33	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_34	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_35	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_36	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_37	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_38	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_39	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_40	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_41	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_42	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_43	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_44	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_45	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_46	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_47	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_48	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_49	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_50	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_51	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_52	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_53	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_54	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_55	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_56	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_57	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_58	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_59	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_60	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_61	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_62	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_63	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_64	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_65	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_66	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_67	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_68	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_69	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_70	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_71	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_72	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_73	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_74	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_75	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_76	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_77	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_78	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_79	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_80	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_81	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_82	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_83	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_84	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_85	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_86	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_87	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_88	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_89	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_90	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_91	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_92	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_93	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_94	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_95	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_96	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_97	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_98	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_99	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_100	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_101	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_102	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_103	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_104	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_105	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_106	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_107	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_108	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_109	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_110	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_111	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_112	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_113	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_114	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_115	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_116	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_117	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_118	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_119	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_120	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_121	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_122	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_123	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_124	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_125	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_126	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_127	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_128	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_129	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_130	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_131	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_132	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_133	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_134	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_135	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_136	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_137	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_138	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_139	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_140	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_141	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_142	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_143	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_144	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_145	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_146	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_147	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_148	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_149	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_150	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_151	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_152	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_153	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_154	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_155	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_156	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_157	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_158	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_159	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_160	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_161	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_162	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_163	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_164	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_165	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_166	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_167	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_168	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_169	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_170	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_171	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_172	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_173	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_174	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_175	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_176	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_177	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_178	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_179	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_180	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_181	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_182	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_183	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_184	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_185	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_186	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_187	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_188	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_189	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_190	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_191	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_192	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_193	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_194	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_195	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_196	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_197	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_198	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_199	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_200	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_201	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_202	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_203	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_204	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_205	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_206	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_207	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_208	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_209	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_210	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_211	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_212	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_213	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_214	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_215	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_216	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_217	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_218	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_219	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_220	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_221	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_222	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_223	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_224	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_225	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_226	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_227	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_228	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_229	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Discovery_230	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_1	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_2	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_3	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_4	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_5	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_6	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_7	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_8	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_9	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_10	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_11	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_12	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_13	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_14	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_15	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_16	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_17	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_18	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_19	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_20	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_21	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_22	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_23	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_24	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_25	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_26	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_27	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_28	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_29	Sample source:Serum | Factor:HC	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_30	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_31	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_32	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_33	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_34	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_35	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_36	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_37	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_38	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_39	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_40	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_41	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_42	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_43	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_44	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_45	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_46	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_47	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_48	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_49	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_50	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_51	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_52	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_53	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_54	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_55	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_56	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_57	Sample source:Serum | Factor:MMD	
+SUBJECT_SAMPLE_FACTORS           	-	Validation_58	Sample source:Serum | Factor:MMD	
+#COLLECTION
+CO:COLLECTION_SUMMARY            	All human peripheral venous blood samples were obtained following the protocols
+CO:COLLECTION_SUMMARY            	approved by the Institutional Review Board at Huashan Hospital. Blood samples
+CO:COLLECTION_SUMMARY            	were obtained at the same time as regular blood tests after overnight fasting
+CO:COLLECTION_SUMMARY            	and then centrifuged for 10 minutes (1500g, 4℃). Serum samples were aliquoted
+CO:COLLECTION_SUMMARY            	in sterile centrifuge tubes and stored at -80℃ storage freezer.
+CO:SAMPLE_TYPE                   	Blood (serum)
+#TREATMENT
+TR:TREATMENT_SUMMARY             	none
+#SAMPLEPREP
+SP:SAMPLEPREP_SUMMARY            	At the beginning, all original serum samples were diluted 10 times by 10ul to
+SP:SAMPLEPREP_SUMMARY            	obtain diluted serum, and both the original serum and the diluted serum were
+SP:SAMPLEPREP_SUMMARY            	placed at -80℃ for later use. In LDI MS experiments, 1 μL of analyte solution
+SP:SAMPLEPREP_SUMMARY            	(prepared standard small metabolites or diluted samples) was first spotted on
+SP:SAMPLEPREP_SUMMARY            	the polished steel plate and dried, followed by depositing 1 μL of nanoparticle
+SP:SAMPLEPREP_SUMMARY            	suspension or organic matrix solution and dried in air at room temperature.
+#CHROMATOGRAPHY
+CH:CHROMATOGRAPHY_TYPE           	None (Direct infusion)
+CH:INSTRUMENT_NAME               	none
+CH:COLUMN_NAME                   	none
+CH:SOLVENT_A                     	None
+CH:SOLVENT_B                     	none
+CH:FLOW_GRADIENT                 	none
+CH:FLOW_RATE                     	none
+CH:COLUMN_TEMPERATURE            	none
+#ANALYSIS
+AN:ANALYSIS_TYPE                 	MS
+#MS
+MS:INSTRUMENT_NAME               	Bruker Autoflex speed TOF/TOF
+MS:INSTRUMENT_TYPE               	TOF
+MS:MS_TYPE                       	MALDI
+MS:ION_MODE                      	POSITIVE
+MS:MS_COMMENTS                   	In a typical LDI MS experiment, ferric particles were dispersed in deionized
+MS:MS_COMMENTS                   	water at a concentration of 1mg mL-1 for use as a matrix. The organic matrices
+MS:MS_COMMENTS                   	of CHCA and DHB were dissolved in TA30 solution (acetonitrile/0.1% TFA in water,
+MS:MS_COMMENTS                   	7/3, v/v) at a concentration of 10 mg/mL. For the detection of the standards,
+MS:MS_COMMENTS                   	100nL of analyte solution (each standard listed in the part of chemicals and
+MS:MS_COMMENTS                   	reagents) with different density (100ng mL-1, 1μg mL-1, 10μg mL-1, 100μg
+MS:MS_COMMENTS                   	mL-1, 1mg mL-1) was mixed with 100nL of matrix slurry on the plate and dried for
+MS:MS_COMMENTS                   	LDI MS analysis. For plasma sample detection, the samples were firstly prepared
+MS:MS_COMMENTS                   	through protein precipitation, centrifugation, and supernatant filtration
+MS:MS_COMMENTS                   	according to a commonly applied procedure. Then, a volume of 100nL of plasma
+MS:MS_COMMENTS                   	solution was spotted on the plate and dried in air at room temperature, followed
+MS:MS_COMMENTS                   	by adding 100nL of matrix slurry and drying for LDI MS analysis. Then, mass
+MS:MS_COMMENTS                   	spectra were performed on a 5800 Proteomics Analyzer (Applied Biosystems,
+MS:MS_COMMENTS                   	Framingham, MA, USA) equipped with a Nd:YAG laser (2 kHz, 355 nm). The
+MS:MS_COMMENTS                   	acquisitions were extracted in positive reflector ion mode employing delayed
+MS:MS_COMMENTS                   	extraction with a repetition rate of 1,000Hz and an acceleration voltage of 20
+MS:MS_COMMENTS                   	kV. The delay time for this experiment was optimized to 250 ns. The 2,000 laser
+MS:MS_COMMENTS                   	shots per analysis were for all LDI MS experiments. All the original mass
+MS:MS_COMMENTS                   	spectra data were visualized in DataExplorer (Version 4.5). Only the m/z signals
+MS:MS_COMMENTS                   	within 100–300Da and with a signal-to-noise ratio over 3 were then acquired
+MS:MS_COMMENTS                   	without smoothing processes. For pre-processing, we applied a
+MS:MS_COMMENTS                   	“home-developed” program using Python (version 3.9) to normalize and
+MS:MS_COMMENTS                   	standardize the mass spectra data after peak extraction and alignment59. And
+MS:MS_COMMENTS                   	standard molecules for the accurate mass measurement (±0.05Da) of both
+MS:MS_COMMENTS                   	Na+-adducted and K+-adducted signals were used to perform the mass calibration.
+MS:MS_COMMENTS                   	The detection limit of standard metabolites (listed in chemicals and reagents’
+MS:MS_COMMENTS                   	part) obtained by ferric particle, DHB, and CHCA-assisted LDI MS were calculated
+MS:MS_COMMENTS                   	as previously reported
+MS:MS_RESULTS_FILE               	ST003368_AN005520_Results.txt	UNITS:Relative intensity	Has m/z:Yes	Has RT:No	RT units:No RT data
+#END
